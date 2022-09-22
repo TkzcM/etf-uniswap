@@ -57,11 +57,11 @@ const CHAIN_INFO: ChainInfoMap = {
   [SupportedChainId.MAINNET]: {
     networkType: NetworkType.L1,
     docs: 'https://docs.uniswap.org/',
-    explorer: 'https://explorer.etherfair.org/',
+    explorer: 'https://ethwscan.com/',
     infoLink: 'https://info.uniswap.org/#/',
-    label: 'EthereumFair',
+    label: 'EthereumPoW',
     logoUrl: ethereumLogoUrl,
-    nativeCurrency: { name: 'Ethereum Fair', symbol: 'ETF', decimals: 18 },
+    nativeCurrency: { name: 'Ethereum (PoW)', symbol: 'ETHW', decimals: 18 },
     color: colorsDark.chain_1,
   },
   [SupportedChainId.RINKEBY]: {

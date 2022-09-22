@@ -280,8 +280,8 @@ const WrapSummary = ({
   transactionState: TransactionState
 }) => {
   const native = chainId ? nativeOnChain(chainId) : undefined
-  const from = unwrapped ? native?.wrapped.symbol ?? 'WETF' : native?.symbol ?? 'ETF'
-  const to = unwrapped ? native?.symbol ?? 'ETF' : native?.wrapped.symbol ?? 'WETF'
+  const from = unwrapped ? native?.wrapped.symbol ?? 'WETHW' : native?.symbol ?? 'ETHW'
+  const to = unwrapped ? native?.symbol ?? 'ETHW' : native?.wrapped.symbol ?? 'WETHW'
 
   const amount = formatAmount(currencyAmountRaw, 18, 6)
   const actionProps = unwrapped
