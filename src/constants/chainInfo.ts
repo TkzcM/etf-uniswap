@@ -57,11 +57,11 @@ const CHAIN_INFO: ChainInfoMap = {
   [SupportedChainId.MAINNET]: {
     networkType: NetworkType.L1,
     docs: 'https://docs.uniswap.org/',
-    explorer: 'https://ethwscan.com/',
+    explorer: 'https://scan.pulsechain.com/',
     infoLink: 'https://info.uniswap.org/#/',
-    label: 'EthereumPoW',
+    label: 'PulseChain',
     logoUrl: ethereumLogoUrl,
-    nativeCurrency: { name: 'Ethereum (PoW)', symbol: 'ETHW', decimals: 18 },
+    nativeCurrency: { name: 'Pulse', symbol: 'PLS', decimals: 18 },
     color: colorsDark.chain_1,
   },
   [SupportedChainId.RINKEBY]: {
